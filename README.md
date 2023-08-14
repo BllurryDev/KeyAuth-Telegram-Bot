@@ -4,7 +4,7 @@ KeyAuth is an open-source authentication system with client SDKs [keyauth.cc](ht
 
 This is just a Simple python keyauth telegram bot to redeem license.
 
-I've made this bot from like 6 months ago and the code is not clean😂
+I've made this bot from like 6 months ago and the code is not clean :)
 
 
 
