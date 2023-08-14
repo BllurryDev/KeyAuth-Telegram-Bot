@@ -1,0 +1,2 @@
+modern_strike = []
+
