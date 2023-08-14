@@ -1,4 +1,5 @@
 # KeyAuth-Telegram-Bot
+![68747470733a2f2f63646e2e6b6579617574682e63632f76322f6173736574732f6d656469612f6c6f676f732f6c6f676f2d312d6461726b2e706e67](https://github.com/BlurryMods/KeyAuth-Telegram-Bot/assets/59584791/818a1103-6d20-4822-b266-54292c23e2ce)
 
 KeyAuth is an open-source authentication system with client SDKs [keyauth.cc](https://keyauth.cc)
 
