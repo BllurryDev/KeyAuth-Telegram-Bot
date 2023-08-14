@@ -10,4 +10,4 @@ Source : Me
 </br>
 Keyauth Service : @KeyAuth
 </br>
-KeyAuth.py : <a href="[url](https://github.com/KeyAuth/KeyAuth-Python-Example)https://github.com/KeyAuth/KeyAuth-Python-Example">link text</a>
+KeyAuth.py : [url](https://github.com/KeyAuth/KeyAuth-Python-Example)[/url]
