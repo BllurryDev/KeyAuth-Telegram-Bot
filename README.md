@@ -1,6 +1,6 @@
 # KeyAuth-Telegram-Bot
 
-KeyAuth is a Login Auth system [keyauth.cc](https://keyauth.cc)
+KeyAuth is an open-source authentication system with client SDKs [keyauth.cc](https://keyauth.cc)
 
 This is just a Simple python keyauth telegram bot to redeem license.
 
