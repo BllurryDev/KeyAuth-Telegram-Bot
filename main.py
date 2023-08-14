@@ -68,12 +68,12 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
      user = update.effective_user
      await update.message.reply_markdown_v2(
 fr'''
-Hello {user.mention_markdown_v2()}, from this bot you can avcite your license \(regist\) or you see your account details such as expires date etc\.\.
+Hello {user.mention_markdown_v2()}, from this bot you can activate your license \(regist\) or see your account details such as expiring date etc\.\.
 
 How to redeem license?
 https://vimeo\.com/manage/videos/843635728
 
-How to start using bot?
+How to start using the bot?
 It's simple, just choose one of the commands below or by clicking on 𝗠𝗘𝗡𝗨 button and you will be there\.
 
 /status \- check your account infomation
@@ -160,9 +160,9 @@ async def redeem_start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 async def redeem_username(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
      context.user_data['username'] = update.message.text
      if len(context.user_data['username']) < 4 or len(context.user_data['username']) > 16:
-         await update.message.reply_text(f"username should be more then 4 characters and less then 8 characters❌\n\nYour text characters count: {len(context.user_data['username'])}")
+         await update.message.reply_text(f"username should be more than 4 characters and less than 8 characters❌\n\nYour text characters count: {len(context.user_data['username'])}")
          return ConversationHandler.END
-     await update.message.reply_text("Great! now send to me a valid license.")
+     await update.message.reply_text("Great! now send a valid license.")
      return LICENSE
 
 async def redeem(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -251,7 +251,7 @@ Password: {pass_random}
         time.sleep(1)
         vailddata_id = vailddata.message_id
         await app.updater.bot.delete_message(chat_id, vailddata_id)
-        setting = await update.message.reply_text("setting your data...⚙️")
+        setting = await update.message.reply_text("setting up your data...⚙️")
         time.sleep(1)
         setting
         time.sleep(5)
