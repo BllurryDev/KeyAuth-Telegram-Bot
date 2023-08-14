@@ -12,7 +12,7 @@ I Recoomand to use [Railway](https://railway.app/) to host the bot.
 
 # Credits
 
-Source : Me
+bot : Me
 </br>
 Keyauth Service : [KeyAuth](https://github.com/KeyAuth)
 </br>
