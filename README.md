@@ -6,6 +6,8 @@ This is just a Simple python keyauth telegram bot to redeem license.
 
 I've made this bot from like 6 months ago and the code is not clean :)
 
+I Recoomand to use [Railway](https://railway.app/) to host the bot.
+
 
 
 # Credits
